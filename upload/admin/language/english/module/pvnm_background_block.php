@@ -9,7 +9,9 @@ $_['tab_help']       	  			  = 'Help';
 // Text
 $_['text_module']       			  = 'Modules';
 $_['text_success']     				  = 'Success: You have modified module!';
-$_['text_edit']       	  			  = 'Edit Module';
+$_['text_edit']       				  = 'Edit Module';
+$_['text_documentation']			  = 'Documentation';
+$_['text_developer']    			  = 'Developer';
 $_['text_tab_module']     			  = 'Module';
 $_['text_top_left']     			  = 'top left';
 $_['text_top_center']     			  = 'top center';

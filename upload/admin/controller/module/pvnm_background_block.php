@@ -46,6 +46,8 @@ class ControllerModulePvnmBackgroundBlock extends Controller {
 		$data['tab_settings'] = $this->language->get('tab_settings');
 		$data['tab_help'] = $this->language->get('tab_help');
 		$data['text_edit'] = $this->language->get('text_edit');
+		$data['text_documentation'] = $this->language->get('text_documentation');
+		$data['text_developer'] = $this->language->get('text_developer');
 		$data['text_enabled'] = $this->language->get('text_enabled');
 		$data['text_disabled'] = $this->language->get('text_disabled');
 		$data['text_tab_module'] = $this->language->get('text_tab_module');

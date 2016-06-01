@@ -26,7 +26,7 @@
     <?php } ?>
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title"><i class="fa fa-pencil"></i> <?php echo $text_edit; ?></h3>
+        <h3 class="panel-title"><i class="fa fa-cogs"></i> <?php echo $text_edit; ?></h3>
       </div>
       <div class="panel-body">
         <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form" class="form-horizontal">
@@ -136,13 +136,16 @@
 				</div>
             </div>
 		  </div>
-		  <div class="tab-pane" id="tab-help">
-  			<div class="row">
-	          <div class="col-sm-10">
-	  			<a href="mailto:p0v1n0m@gmail.com">p0v1n0m@gmail.com</a>
-	          </div>
-  			</div>
-		  </div>
+          <div class="tab-pane" id="tab-help">
+            <div class="form-group">
+              <label class="col-sm-2 control-label"><?php echo $text_documentation; ?></label>
+              <div class="col-sm-10"><a href="https://github.com/p0v1n0m/opencart_background_block" target="_blank" class="btn">https://github.com/p0v1n0m/opencart_background_block</a></div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2 control-label"><?php echo $text_developer; ?></label>
+              <div class="col-sm-10"><a href="mailto:p0v1n0m@gmail.com" class="btn">p0v1n0m@gmail.com</a></div>
+            </div>
+          </div>
 		  </div>
         </form>
       </div>
